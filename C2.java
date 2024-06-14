@@ -9,15 +9,7 @@ public class C2 {
 			String clip = word.substring(0,i+1);
 			System.out.println(clip);
 		}
-		
-		
-//		String clip1;
-//		clip1 = word.substring(0,6);
-//		System.out.println(clip1);
-//		clip1 = word.substring(0,5);
-//		System.out.println(clip1);
-//		clip1 = word.substring(0,4);
-//		System.out.println(clip1);
+	
 		for(int i = len1; i>0; i--) {
 			String clip = word.substring(0,i-1);
 			System.out.println(clip);
